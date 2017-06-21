@@ -6,7 +6,7 @@ var Ninja = require('../models/ninja');
 router.get('/ninjas' , function(req, res, next){
     Ninja.geoNear(
         {
-            type: 'point',
+            type: 'Point',
             coordinates: [parseFloat(req.query.lng), parseFloat(req.query.lat)]
         },
         {
