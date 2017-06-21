@@ -1,0 +1,16 @@
+{
+  "name": "ninjarestapi",
+  "version": "1.0.0",
+  "description": "Rest api in node to get and add ninjas to a db and retrive that informatin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Taher Pardawala",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.7"
+  }
+}
